@@ -1,5 +1,5 @@
 # sass
 basic installation
 
--> npm i
+-> npm i    
 -> npm run dev
