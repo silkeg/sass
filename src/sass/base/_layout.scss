@@ -1,0 +1,17 @@
+@use 'variables' as *;
+
+@font-face {
+  font-family: 'Gilbert';
+  src: url('../fonts/Gilbert-Color.otf');
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  font-family: Gilbert, sans-serif;
+}
+
+.wrapper {
+  max-width: $content-width;
+  margin-inline: auto;
+}

@@ -1,0 +1,9 @@
+// CSS-Variablen
+:root {
+  --light-gray: hsl(235, 15%, 70%);
+  --purple: hsl(230, 33%, 21%);
+  --background-color: var(--purple);
+  --text-color: var(--light-gray);
+}
+
+$content-width: 50rem;
